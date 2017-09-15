@@ -11848,7 +11848,7 @@ module.exports = function(module) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BMFjj", function() { return BMFjj; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "XUCgY", function() { return XUCgY; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11864,11 +11864,11 @@ goog.loadModule(function(exports) {
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace BMFjj.
+ * @fileoverview Templates in namespace XUCgY.
  * @public
  */
 
-goog.module('BMFjj.incrementaldom');
+goog.module('XUCgY.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11902,10 +11902,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param262 = function() {
+  var param246 = function() {
     ie_open('h6');
-      var dyn23 = opt_data.page.description;
-      if (typeof dyn23 == 'function') dyn23(); else if (dyn23 != null) itext(dyn23);
+      var dyn22 = opt_data.page.description;
+      if (typeof dyn22 == 'function') dyn22(); else if (dyn22 != null) itext(dyn22);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -11914,11 +11914,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_close('h2');
       ie_open('p');
         ie_open('a', null, null,
-            'href', '../../api-docs/testray/index.html');
+            'href', 'https://hosting-testin123.wedeploy.io/api-docs/testray/index.html');
           itext('Testray documentation');
         ie_close('a');
         ie_open('a', null, null,
-            'href', '../../api-docs/lr7/index.html');
+            'href', 'https://hosting-testin123.wedeploy.io/api-docs/lr7/index.html');
           itext('LR7 documentation');
         ie_close('a');
       ie_close('p');
@@ -11981,11 +11981,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param262}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param246}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'BMFjj.render';
+  $render.soyTemplateName = 'XUCgY.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11995,8 +11995,8 @@ return exports;
 
 });
 
-class BMFjj extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(BMFjj, templates);
+class XUCgY extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(XUCgY, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
@@ -12048,7 +12048,8 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(BMFjj, templates);
 /* 143 */,
 /* 144 */,
 /* 145 */,
-/* 146 */
+/* 146 */,
+/* 147 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12090,23 +12091,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var BMFjj = function (_Component) {
-  _inherits(BMFjj, _Component);
+var XUCgY = function (_Component) {
+  _inherits(XUCgY, _Component);
 
-  function BMFjj() {
-    _classCallCheck(this, BMFjj);
+  function XUCgY() {
+    _classCallCheck(this, XUCgY);
 
-    return _possibleConstructorReturn(this, (BMFjj.__proto__ || Object.getPrototypeOf(BMFjj)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (XUCgY.__proto__ || Object.getPrototypeOf(XUCgY)).apply(this, arguments));
   }
 
-  return BMFjj;
+  return XUCgY;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(BMFjj, _etiamSoy2.default);
+_metalSoy2.default.register(XUCgY, _etiamSoy2.default);
 
-exports.default = BMFjj;
+exports.default = XUCgY;
 
 /***/ })
-],[146]);
+],[147]);
