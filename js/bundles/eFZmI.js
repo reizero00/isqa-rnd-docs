@@ -2670,8 +2670,8 @@ function $logo(opt_data, opt_ignored, opt_ijData) {
           'class', 'topbar-logo-icon icon-16-hammer');
       ie_open('span', null, null,
           'class', 'topbar-logo-text');
-        var dyn13 = opt_data.site.title;
-        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+        var dyn11 = opt_data.site.title;
+        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
       ie_close('span');
     ie_close('a');
   ie_close('div');
@@ -11848,7 +11848,7 @@ module.exports = function(module) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LUKDb", function() { return LUKDb; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "eFZmI", function() { return eFZmI; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11864,11 +11864,11 @@ goog.loadModule(function(exports) {
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace LUKDb.
+ * @fileoverview Templates in namespace eFZmI.
  * @public
  */
 
-goog.module('LUKDb.incrementaldom');
+goog.module('eFZmI.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11914,11 +11914,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_close('h2');
       ie_open('p');
         ie_open('a', null, null,
-            'href', '../../api-docs/testray');
+            'href', '../../api-docs/testray/index.html');
           itext('Testray documentation');
         ie_close('a');
         ie_open('a', null, null,
-            'href', '../../api-dacs/lr7');
+            'href', '../../api-dacs/lr7/index.htmls');
           itext('LR7 documentation');
         ie_close('a');
       ie_close('p');
@@ -11985,7 +11985,7 @@ function $render(opt_data, opt_ignored, opt_ijData) {
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'LUKDb.render';
+  $render.soyTemplateName = 'eFZmI.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11995,8 +11995,8 @@ return exports;
 
 });
 
-class LUKDb extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(LUKDb, templates);
+class eFZmI extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(eFZmI, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
@@ -12048,7 +12048,9 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(LUKDb, templates);
 /* 143 */,
 /* 144 */,
 /* 145 */,
-/* 146 */
+/* 146 */,
+/* 147 */,
+/* 148 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12090,23 +12092,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var LUKDb = function (_Component) {
-  _inherits(LUKDb, _Component);
+var eFZmI = function (_Component) {
+  _inherits(eFZmI, _Component);
 
-  function LUKDb() {
-    _classCallCheck(this, LUKDb);
+  function eFZmI() {
+    _classCallCheck(this, eFZmI);
 
-    return _possibleConstructorReturn(this, (LUKDb.__proto__ || Object.getPrototypeOf(LUKDb)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (eFZmI.__proto__ || Object.getPrototypeOf(eFZmI)).apply(this, arguments));
   }
 
-  return LUKDb;
+  return eFZmI;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(LUKDb, _etiamSoy2.default);
+_metalSoy2.default.register(eFZmI, _etiamSoy2.default);
 
-exports.default = LUKDb;
+exports.default = eFZmI;
 
 /***/ })
-],[146]);
+],[148]);

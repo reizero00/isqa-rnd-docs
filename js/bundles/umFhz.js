@@ -1,5 +1,5 @@
 var pageComponent =
-webpackJsonppageComponent([4],[
+webpackJsonppageComponent([5],[
 /* 0 */,
 /* 1 */,
 /* 2 */,
@@ -2670,8 +2670,8 @@ function $logo(opt_data, opt_ignored, opt_ijData) {
           'class', 'topbar-logo-icon icon-16-hammer');
       ie_open('span', null, null,
           'class', 'topbar-logo-text');
-        var dyn13 = opt_data.site.title;
-        if (typeof dyn13 == 'function') dyn13(); else if (dyn13 != null) itext(dyn13);
+        var dyn11 = opt_data.site.title;
+        if (typeof dyn11 == 'function') dyn11(); else if (dyn11 != null) itext(dyn11);
       ie_close('span');
     ie_close('a');
   ie_close('div');
@@ -11847,13 +11847,12 @@ module.exports = function(module) {
 /* 101 */,
 /* 102 */,
 /* 103 */,
-/* 104 */,
-/* 105 */
+/* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SHgod", function() { return SHgod; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "umFhz", function() { return umFhz; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "templates", function() { return templates; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_metal_component___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_metal_component__);
@@ -11869,11 +11868,11 @@ goog.loadModule(function(exports) {
 // Please don't edit this file by hand.
 
 /**
- * @fileoverview Templates in namespace SHgod.
+ * @fileoverview Templates in namespace umFhz.
  * @public
  */
 
-goog.module('SHgod.incrementaldom');
+goog.module('umFhz.incrementaldom');
 
 /** @suppress {extraRequire} */
 var soy = goog.require('soy');
@@ -11907,10 +11906,10 @@ var $templateAlias1 = __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.getTempl
  * @suppress {checkTypes}
  */
 function $render(opt_data, opt_ignored, opt_ijData) {
-  var param330 = function() {
+  var param314 = function() {
     ie_open('h6');
-      var dyn27 = opt_data.page.description;
-      if (typeof dyn27 == 'function') dyn27(); else if (dyn27 != null) itext(dyn27);
+      var dyn26 = opt_data.page.description;
+      if (typeof dyn26 == 'function') dyn26(); else if (dyn26 != null) itext(dyn26);
     ie_close('h6');
     ie_open('article', null, null,
         'id', '1');
@@ -11923,10 +11922,10 @@ function $render(opt_data, opt_ignored, opt_ijData) {
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
-      $templateAlias2({code: 'console.info(\'Hola Mundo\');', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
+      $templateAlias2({code: 'alert(\'Hello World\');', mode: 'javascript'}, null, opt_ijData);
       ie_open('p');
         itext('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nulla libero, eleifend in euismod eget, fringilla id diam. Proin quis interdum ipsum. Fusce eros metus, hendrerit ut egestas nec, sagittis id velit.');
       ie_close('p');
@@ -11976,11 +11975,11 @@ function $render(opt_data, opt_ignored, opt_ijData) {
         'value', opt_data.site.title);
     ie_close('input');
   };
-  $templateAlias1(soy.$$assignDefaults({content: param330}, opt_data), null, opt_ijData);
+  $templateAlias1(soy.$$assignDefaults({content: param314}, opt_data), null, opt_ijData);
 }
 exports.render = $render;
 if (goog.DEBUG) {
-  $render.soyTemplateName = 'SHgod.render';
+  $render.soyTemplateName = 'umFhz.render';
 }
 
 exports.render.params = ["page","site"];
@@ -11990,14 +11989,15 @@ return exports;
 
 });
 
-class SHgod extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
-__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(SHgod, templates);
+class umFhz extends __WEBPACK_IMPORTED_MODULE_0_metal_component___default.a {}
+__WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(umFhz, templates);
 
 /* harmony default export */ __webpack_exports__["default"] = (templates);
 /* jshint ignore:end */
 
 
 /***/ }),
+/* 105 */,
 /* 106 */,
 /* 107 */,
 /* 108 */,
@@ -12042,8 +12042,7 @@ __WEBPACK_IMPORTED_MODULE_1_metal_soy___default.a.register(SHgod, templates);
 /* 147 */,
 /* 148 */,
 /* 149 */,
-/* 150 */,
-/* 151 */
+/* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12073,7 +12072,7 @@ __webpack_require__(20);
 
 __webpack_require__(18);
 
-var _indexSoy = __webpack_require__(105);
+var _indexSoy = __webpack_require__(104);
 
 var _indexSoy2 = _interopRequireDefault(_indexSoy);
 
@@ -12085,23 +12084,23 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var SHgod = function (_Component) {
-  _inherits(SHgod, _Component);
+var umFhz = function (_Component) {
+  _inherits(umFhz, _Component);
 
-  function SHgod() {
-    _classCallCheck(this, SHgod);
+  function umFhz() {
+    _classCallCheck(this, umFhz);
 
-    return _possibleConstructorReturn(this, (SHgod.__proto__ || Object.getPrototypeOf(SHgod)).apply(this, arguments));
+    return _possibleConstructorReturn(this, (umFhz.__proto__ || Object.getPrototypeOf(umFhz)).apply(this, arguments));
   }
 
-  return SHgod;
+  return umFhz;
 }(_metalComponent2.default);
 
 ;
 
-_metalSoy2.default.register(SHgod, _indexSoy2.default);
+_metalSoy2.default.register(umFhz, _indexSoy2.default);
 
-exports.default = SHgod;
+exports.default = umFhz;
 
 /***/ })
-],[151]);
+],[150]);
